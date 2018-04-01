@@ -3,7 +3,7 @@ class Randpass < Formula
   homepage "https://github.com/mraffonso/randpass"
   url "https://github.com/mraffonso/randpass/releases/download/v0.1.1/randpass-0.1.1-darwin-amd64.tar.xz"
   sha256 "de0675e01cb6fdc398afa6f74c76acc9378bb8fdcc871815f49f489029d5ba0d"
-  version '0.1.0'
+  version '0.1.1'
 
   def install
     bin.install "randpass"
