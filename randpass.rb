@@ -1,9 +1,11 @@
 class Randpass < Formula
   desc "Adequate command line random password generator for macOS"
   homepage "https://github.com/mraffonso/randpass"
-  url "https://github.com/mraffonso/randpass/releases/download/v0.1.1/randpass-0.1.1-darwin-amd64.tar.xz"
-  sha256 "de0675e01cb6fdc398afa6f74c76acc9378bb8fdcc871815f49f489029d5ba0d"
-  version '0.1.1'
+  url "https://github.com/mraffonso/randpass/releases/download/v0.1.2/randpass-0.1.2-darwin-amd64.tar.xz"
+  sha256 "cb9a24a3d4c7f38b9b2ca8c0e01b31296769df35322e7710972bf0abdfa63b46"
+  version '0.1.2'
+
+  depends_on "libevent"
 
   def install
     bin.install "randpass"
