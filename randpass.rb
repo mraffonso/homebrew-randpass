@@ -2,7 +2,7 @@ class Randpass < Formula
   desc "An adequate command-line random password generator"
   homepage "https://github.com/mraffonso/randpass"
   url "https://github.com/mraffonso/randpass/releases/download/v0.1.6/randpass-0.1.6-darwin-amd64.tar.xz"
-  sha256 "5ffb58ad7a781001a04209e46f16809f51b82e9602bf51d0c14e8d92c69b4f12"
+  sha256 "a16e94c9263ed57a0678321c88f6cc1f284000989796d236d96dece7912b3fce"
   version '0.1.6'
 
   depends_on "jq"
